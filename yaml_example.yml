@@ -1,0 +1,12 @@
+mqtt:
+  sensor:
+    - name: "EcoFlow Battery"
+      state_topic: "/home/ecoflow/battery"
+    - name: "EcoFlow HighPV"
+      state_topic: "/home/ecoflow/PvHvPwr"
+      unit_of_measurement: "W"
+      state_class: measurement
+    - name: "EcoFlow LowPV"
+      state_topic: "/home/ecoflow/PvLvPwr"
+      unit_of_measurement: "W"
+      state_class: measurement
