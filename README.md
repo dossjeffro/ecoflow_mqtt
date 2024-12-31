@@ -8,21 +8,7 @@ Just make sure you remember the user and password is it will be needed in the py
 2. Add sensors to your Home Assistant configuration YAML 
 NOTE: I have a leading slash in the MQTT topics which I don't think is the correct nomenclature. But, it works for me.
 
-'''yaml
-mqtt:
-  sensor:
-    - name: "EcoFlow Battery"
-      state_topic: "/home/ecoflow/battery"
-    - name: "EcoFlow HighPV"
-      state_topic: "/home/ecoflow/PvHvPwr"
-      unit_of_measurement: "W"
-      state_class: measurement
-    - name: "EcoFlow LowPV"
-      state_topic: "/home/ecoflow/PvLvPwr"
-      unit_of_measurement: "W"
-      state_class: measurement
-'''
-
+SEE YAML example code in this project.
 
 3. Request an Ecoflow API Key. I did not get a confirmation that one was created. I just kept checking and eventually they provided one.
 Copy the clientid and key. You can request the Developer key here: https://developer.ecoflow.com/us
