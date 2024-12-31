@@ -5,7 +5,7 @@ Steps to setup. (This is by memory and it has been a month, but this should be c
 1. Install MQTT on Home Assistant. Make sure you add user/password. - I'm not an expert on Home Assistant, so follow others instructions on this. 
 Just make sure you remember the user and password is it will be needed in the python.
 
-2. Add sensors to your Home Assistant configuration YAML 
+2. Add sensors to your Home Assistant configuration YAML.
 NOTE: I have a leading slash in the MQTT topics which I don't think is the correct nomenclature. But, it works for me.
 
 SEE YAML example code in this project.
