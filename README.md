@@ -8,7 +8,7 @@ Just make sure you remember the user and password is it will be needed in the py
 2. Add sensors to your Home Assistant configuration YAML 
 NOTE: I have a leading slash in the MQTT topics which I don't think is the correct nomenclature. But, it works for me.
 
-'''
+'''yaml
 mqtt:
   sensor:
     - name: "EcoFlow Battery"
