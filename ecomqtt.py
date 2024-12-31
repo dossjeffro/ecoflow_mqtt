@@ -6,16 +6,16 @@ import paho.mqtt.client as mqtt
 from threading import Timer
 
 # Configuration
-ACCESS_KEY = "ECOFLOW_KEY"
-SECRET_KEY = "ECOFLOW_SECRET"
+ACCESS_KEY = "INSERT_ECOFLOW_KEY"
+SECRET_KEY = "INSERT_ECOFLOW_SECRET"
 HOST = "https://api.ecoflow.com"
-DEVICE_SN = "ECOFLOW_SN"
+DEVICE_SN = "INSERT_ECOFLOW_SN_SHP2_OR_DPU"
 
 # MQTT Configuration
-MQTT_BROKER = "mqtt_broker_ip"
+MQTT_BROKER = "HOME_ASSISTANT_IP"
 MQTT_PORT = 1883
-MQTT_USERNAME = "mqtt_user"
-MQTT_PASSWORD = "mqtt_pwd"
+MQTT_USERNAME = "INSERT_MQTT_USER"
+MQTT_PASSWORD = "INSERT_MQTT_PW"
 MQTT_BASE_TOPIC = "/EcoFlow"
 
 # MQTT Client setup
